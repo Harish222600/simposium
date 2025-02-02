@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+
+.logo{
+    width: 60px;
+    
+}
+
+  .hero-banner {
+    background: linear-gradient(135deg, #506a81, #39ac2f);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+  .event-section {
+    
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 40px 20px;
+  }
+  button {
+
+    background:#343a40;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+button:hover {
+
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  }
+  button a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  } 
+  .why-participate {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .footer {
+    background: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+  }
+  .card {
+    margin: 20px;
+    padding: 10px;
+  }
+

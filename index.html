@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LE-TECH '25 Symposium</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header class="hero-banner">
+
+
+        <!-- Navbar with Toggle Button and Logo -->
+        <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-brand img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 768px) {
+            .navbar-brand img {
+                width: 150px; /* Adjust as needed */
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+        <div class="container-fluid">
+            <!-- Logo on the Left -->
+            <a class="navbar-brand" href="#">
+                <img src="le-tech.png" alt="Logo" width="200" height="100" class="d-inline-block align-text-top">
+            </a>
+
+            <!-- Toggle Button for Small Screens -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Items Aligned to the Right -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#events">Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#rules">Rules</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#venue">Venue</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+    </header>
+
+    <!-- Event Highlight Section -->
+    <section class="event-section text-center">
+        <h2>National Level Technical Symposium</h2>
+        <p>Prize Worth ₹15,000</p>
+        <div id="countdown"></div>
+    </section>
+
+    <!-- Event Categories Section -->
+    <section id="events" class="event-section">
+        <div class="container">
+            <h3 class="text-center mb-4">Event Categories</h3>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <h4>Technical Events</h4>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Demo Talk</h5>
+                            <p class="card-text">Showcase your technical expertise through innovative presentations.</p>
+                            <button><a href="">Register now</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Demo Talk</h5>
+                            <p class="card-text">Showcase your technical expertise through innovative presentations.</p>
+                            <button><a href="">Register now</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Demo Talk</h5>
+                            <p class="card-text">Showcase your technical expertise through innovative presentations.</p>
+                            <button><a href="">Register now</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <h4>Non-Technical Events</h4>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">IPL Auction</h5>
+                            <p class="card-text">Strategize and compete in a thrilling auction environment.</p>
+                            <button><a href="">Register now</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Demo Talk</h5>
+                            <p class="card-text">Showcase your technical expertise through innovative presentations.</p>
+                            <button><a href="">Register now</a></button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Demo Talk</h5>
+                            <p class="card-text">Showcase your technical expertise through innovative presentations.</p>
+                            <button><a href="">Register now</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Participate Section -->
+    <section class="why-participate">
+        <h3>Why Participate?</h3>
+        <ul class="list-unstyled">
+            <li>Enhance your skills and knowledge</li>
+            <li>Win exciting prizes worth ₹15,000</li>
+            <li>Network with industry experts and peers</li>
+        </ul>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <p>Follow us on social media</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="#" class="text-white">Facebook</a></li>
+            <li class="list-inline-item"><a href="#" class="text-white">Instagram</a></li>
+            <li class="list-inline-item"><a href="#" class="text-white">Twitter</a></li>
+        </ul>
+        <p>Quick Links: <a href="#rules" class="text-white">Event Rules</a> | <a href="#contact"
+                class="text-white">Contact</a> | <a href="#venue" class="text-white">Venue</a></p>
+    </footer>
+
+    <script>
+        // Countdown Timer Logic
+        const countdownDate = new Date("Feb 21, 2025 09:00:00").getTime();
+        const x = setInterval(function () {
+            const now = new Date().getTime();
+            const distance = countdownDate - now;
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown").innerHTML =
+                `${days}d ${hours}h ${minutes}m ${seconds}s`;
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("countdown").innerHTML = "Event Started!";
+            }
+        }, 1000);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
